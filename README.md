@@ -244,6 +244,6 @@ run ``` sudo python databaseSetup.p ``` and ``` sudo python CatalogData.py```
 
 ```oauth_flow = flow_from_clientsecrets('/var/www/TheCatalogApp/client_secrets.json', scope='')```
 
-### Finally  Restart apache and load the application at http://13.234.48.213.xio.ip
+### Finally  Restart apache and load the application at http://13.234.48.213.xip.io
 
 [Instructions to run the Application](https://github.com/Shreya957/TheCatalogApp/blob/master/README.md)

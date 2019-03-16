@@ -205,7 +205,7 @@ psql
 run below commands to create catalog user as the DB owner
 
 ```
-postgres=# CREATE USER catalog WITH PASSWORD 'catalog';
+postgres=# CREATE USER catalog WITH PASSWORD 'password';
 postgres=# ALTER USER catalog CREATEDB;
 postgres=# CREATE DATABASE catalog WITH OWNER catalog;
 ```

@@ -107,7 +107,7 @@ sudo a2enmod wsgi
 ```
 WSGI can be set up as follows
 
--  Create the WSGI file named TheCatalogApp.wsgi in /var/www/TheCatalogApp with following details
+-  Create the WSGI file  /var/www/TheCatalogApp/TheCatalogApp.wsgi with following details
 
 ```
 import sys

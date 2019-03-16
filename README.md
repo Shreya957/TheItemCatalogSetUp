@@ -47,10 +47,9 @@ sudo adduser grader
 ```
 ## 4. Providing sudo privileges to the grader user
 
-
-
-
-
+```
+usermod -aG sudo grader
+```
 
 ## 5. Configuring SSH to 2200
 
